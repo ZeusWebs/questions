@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    animation: change 10s ease-in-out infinite;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    height: 200px;
+    width: 600px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    } 
+    50% {
+        background-position: 100% 50%;
+    } 
+    100% {
+        background-position: 0 50%;
+    } 
+}
+
+.question {
+    background-color: #fff;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+span {
+    padding: 0 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.answer {
+    margin-top: 20px;
+    /* background-color: #23d5ab; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    /* background-color: red; */
+    height: 50px;
+    width: 100px;
+}
+.btn2 {
+    /* background-color: red; */
+    height: 50px;
+    width: 100px;
+}
+
+#click1 {
+    float: left;
+    
+}
+#click2 {
+    float: right;
+    padding: 0 10px;
+    
+}
+
+.answer-1 {
+    /* background-color: #23d5ab; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spce {
+    padding: 0 10px;
+}
+
+
+.text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Angryberd</title>
+</head>
+<body>
+    <section>
+        <div class="content">
+            <div class="holo">
+                <div class="question" id="q1">
+                    <div class="text">Ako din: <br><span id="value"></span></div>
+                </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        
+        function click2(){
+            location.href = "ans.html";
+        }
+        
+
+        document.getElementById("value").innerHTML=localStorage.getItem("TEXT");
+    </script>
+</body>
+</html>
